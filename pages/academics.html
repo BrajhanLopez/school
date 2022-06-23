@@ -8,6 +8,7 @@
 	<title>Academics</title>
 	<link rel="shortcut icon" href="../assets/img/iconop.png" type="image/x-icon">
 	<link rel="stylesheet" href="../assets/css/styles.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/accc33d0a0.js" crossorigin="anonymous"></script>
 	<script defer src="../assets/js/index.js"></script>
 </head>
@@ -17,16 +18,16 @@
 	<header class="header">
 		<nav class="nav">
 			<div class="div-img">
-				<a href="../index.html">	<img class="nav-img" src="../assets/img/logo1.png" alt=""> </a>
+				<a href="../index.html">	<img class="nav-img"  data-aos="fade-right"  data-aos-duration="1000" src="../assets/img/logo1.png" alt=""> </a>
 
 			</div>
 			<div class="hamburguer">
                 <i class="fa-solid fa-bars"></i>
             </div>
-			<ul class="ul">
+			<ul class="ul" data-aos="fade-left" data-aos-duration="1000">
 				<li class="li"> <a class="li-a" href="../index.html">Home</a> </li>
 				<li class="li"> <a class="li-a" href="./about.html">About</a> </li>
-				<li class="li"> <a class="li-a" href="./academics.html">Academics</a> </li>
+				<li class="li"> <a class="li-a active-i" href="./academics.html">Academics</a> </li>
 				<li class="li"> <a class="li-a" href="./contact.html">Contact</a> </li>
 				<li class="li"> <a class="li-a sing-up" href="./singup.html">Sing Up</a> </li>
 			</ul>
@@ -46,7 +47,7 @@
 					</p>
 				</div>
 				<div>
-					<img class="about-img1"
+					<img class="about-img1" data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="900"
 						src="https://images.pexels.com/photos/8423367/pexels-photo-8423367.jpeg?cs=srgb&dl=pexels-pavel-danilyuk-8423367.jpg&fm=jpg"
 						alt="">
 
@@ -57,10 +58,13 @@
 
 			<section class="section2-class">
 
-				<div class="container-class class1 container-classmobile">
-					<p>Online</p>
-					<p>Classes</p>
-					<p>for all</p>
+				<div class="container-class class1 container-classmobile" >
+					<p data-aos="fade-up"
+					data-aos-duration="3000">Online</p>
+					<p data-aos="fade-up"
+					data-aos-duration="3000">Classes</p>
+					<p data-aos="fade-up"
+					data-aos-duration="3000">for all</p>
 				</div>
 				<div class="container-class">
 					<img class="img-containerclass" src="https://images.pexels.com/photos/4126751/pexels-photo-4126751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -110,6 +114,11 @@
 		<p class="footer-p">© 2010 — 2022 Privacy Terms</p>
 	</footer>
 </div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

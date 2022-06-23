@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/iconop.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/accc33d0a0.js" crossorigin="anonymous"></script>
     <script defer src="./assets/js/index.js"></script>
     <title>School - Friends Garden</title>
@@ -19,14 +19,14 @@
     <header class="header">
         <nav class="nav">
             <div class="div-img">
-                <a href="./index.html"> <img class="nav-img" src="./assets/img/logo1.png" alt=""></a>
+                <a href="./index.html"> <img class="nav-img" data-aos="fade-right"  data-aos-duration="1000" src="./assets/img/logo1.png" alt=""></a>
                 
             </div>
             <div class="hamburguer">
                 <i class="fa-solid fa-bars"></i>
             </div>
-            <ul class="ul">
-                <li class="li"> <a class="li-a" href="./index.html">Home</a> </li>
+            <ul class="ul" data-aos="fade-left" data-aos-duration="1000">
+                <li class="li"> <a class="li-a active-i" href="./index.html">Home</a> </li>
                 <li class="li"> <a class="li-a" href="./pages/about.html">About</a> </li>
                 <li class="li"> <a class="li-a" href="./pages/academics.html">Academics</a> </li>
                 <li class="li"> <a class="li-a" href="./pages/contact.html">Contact</a> </li>
@@ -48,7 +48,7 @@
                     <p class="section1-p">Learning is designed to reflect our value of diverse learners as we seek to provide appropriate support and challenge for all. Our goal is for students to consistently engage in diverse learning experiences in pursuit of educational excellence.</p>
                     <button class="section1-button">Get Started</button>
                 </div>
-                <div class="section1-img-div">
+                <div class="section1-img-div" data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="500">
                     <img class="section1-img"
                         src="https://images.pexels.com/photos/8423410/pexels-photo-8423410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="">
@@ -68,7 +68,7 @@
                         <li>Moral and spiritual compass</li>
                     </ul>
                 </div>
-                <div class="section2-iframe">
+                <div class="section2-iframe" data-aos="fade-up" data-aos-duration="3000">
                     <iframe class="video-index" width="560" height="315" src="https://www.youtube.com/embed/FpJAG719Cdw"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -79,20 +79,20 @@
             <section class="section3">
                 <h2 class="section3-h2">Training Unit</h2>
                 <div class="container-imgsec3">
-                    <div>
+                    <div data-aos="fade-up" data-aos-duration="3000">
                         <img class="section3-img"
                             src="https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="">
 
                         <p class="section3-p">School</p>
                     </div>
-                    <div>
+                    <div data-aos="fade-up" data-aos-duration="3000">
                         <img class="section3-img"
                             src="https://images.pexels.com/photos/8199143/pexels-photo-8199143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=94"
                             alt="">
                         <p class="section3-p">Academy</p>
                     </div>
-                    <div>
+                    <div data-aos="fade-up" data-aos-duration="3000">
                         <img class="section3-img"
                             src="https://images.pexels.com/photos/3987012/pexels-photo-3987012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="">
@@ -127,7 +127,10 @@
         <p class="footer-p">© 2010 — 2022  Privacy Terms</p>
     </footer>
 </div>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

@@ -8,6 +8,7 @@
     <title>About</title>
     <link rel="shortcut icon" href="../assets/img/iconop.png" type="image/x-icon">
     <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/accc33d0a0.js" crossorigin="anonymous"></script>
     <script defer src="../assets/js/index.js"></script>
 </head>
@@ -17,16 +18,16 @@
     <header class="header">
         <nav class="nav">
             <div class="div-img">
-                <a href="../index.html">  <img class="nav-img" src="../assets/img/logo1.png" alt=""> </a>
+                <a href="../index.html">  <img class="nav-img" data-aos="fade-right"  data-aos-duration="1000" src="../assets/img/logo1.png" alt=""> </a>
 
             </div>
             <div class="hamburguer">
                 <i class="fa-solid fa-bars"></i>
             </div>
 
-            <ul class="ul">
+            <ul class="ul" data-aos="fade-left" data-aos-duration="1000">
                 <li class="li"> <a class="li-a" href="../index.html">Home</a> </li>
-                <li class="li"> <a class="li-a" href="./about.html">About</a> </li>
+                <li class="li"> <a class="li-a active-i" href="./about.html">About</a> </li>
                 <li class="li"> <a class="li-a" href="./academics.html">Academics</a> </li>
                 <li class="li"> <a class="li-a" href="./contact.html">Contact</a> </li>
                 <li class="li"> <a class="li-a sing-up" href="./singup.html">Sing Up</a> </li>
@@ -47,7 +48,7 @@
                         is to contribute to
                         the comprehensive education of our initial, primary and secondary students.</p>
                 </div>
-                <div class="about-div-img">
+                <div class="about-div-img" data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="900">
                     <img class="about-img1"
                         src="https://images.pexels.com/photos/5212338/pexels-photo-5212338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="">
@@ -55,7 +56,7 @@
             </section>
 
             <section class="about-section2">
-                <div class="about-m">
+                <div class="about-m" data-aos="fade-up" data-aos-duration="3000">
                     <h2 class="about-h2">Mision</h2>
                     <img class="about-img-mision" src="https://images.pexels.com/photos/8617938/pexels-photo-8617938.jpeg?cs=srgb&dl=pexels-yan-krukov-8617938.jpg&fm=jpg" alt="">
                     <div class="div-mision">
@@ -64,7 +65,7 @@
                             Institution.</p>
                     </div>
                 </div>
-                <div class="about-m">
+                <div class="about-m" data-aos="fade-up" data-aos-duration="3000">
                     <h2 class="about-h2">Vision</h2>
                     <img class="about-img-mision"  src="https://images.pexels.com/photos/7942523/pexels-photo-7942523.jpeg?cs=srgb&dl=pexels-pavel-danilyuk-7942523.jpg&fm=jpg" alt="">
                     <div class="div-vision">
@@ -109,6 +110,12 @@
         <p class="footer-p">© 2010 — 2022 Privacy Terms</p>
     </footer>
     </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
