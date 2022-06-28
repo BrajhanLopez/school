@@ -8,15 +8,6 @@
 
 }
 
-.layout1 {
-    width: 100vw;
-    height: 100vh;
-
-    display: grid;
-    grid:
-        "header" auto "main" auto "footer" auto / 1fr;
-    /*gap: 8px;*/
-}
 
 
 body {
