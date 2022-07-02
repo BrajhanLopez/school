@@ -40,12 +40,17 @@ body {
     border-radius: 10px;
 }
 
-
+#Singup:hover {
+    color:#ffb703;
+    background-color: #082751;
+    border-radius: 10px;
+}
 
 /*------------------MAIN-----------------------------*/
 
 #fondomain {
-    background-color: #d1dfed;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); 
+    /* background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%); */
 }
 
 .main {
@@ -201,10 +206,28 @@ body {
 
 /* TERMINE EDICION BOOSTRAP */
 
+.img-carr {
+    max-height: 742.5px;
+}
 
+.encima {
+    position: absolute;
+   background-color: rgba(0, 0, 0, 0.25);
+   color: white;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 2%;
+    text-shadow: 1px 1px 2px #082751;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
-
-
+.encima-1 {
+    width: 45%;
+    margin-bottom: 1%;
+}
 
 
 
@@ -288,7 +311,12 @@ body {
     width: 100%;
 }
 
-
+.nav-link {
+    color:#082751;
+}
+.nav-link:hover {
+    border-bottom: 1px solid #082751;
+}
 /*----------academics--------------------------------*/
 
 
@@ -569,10 +597,30 @@ iframe {
 
 #divmain {
     background-image: url(https://images.pexels.com/photos/716281/pexels-photo-716281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buton-card:hover{
+    background-color: #005e94 !important;
+}
+
+.card-img-top {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.card-img-top:hover {
+transform: scale(1.05);
+
+
+
 }
 
 @media (max-width: 1300.98px) {
 
+    .img-carr {
+        max-height: 540px;
+    }
 
 .section1-h1 {
     font-size: 35px;
@@ -623,6 +671,17 @@ width: fit-content;
 
 
  @media (max-width: 991.98px) { 
+
+    .img-carr {
+        max-height: 405px;
+    }
+    .encima {
+        display: none;
+    }
+    .encima-1 {
+        display: none;
+    }
+
     .footer-img {
         width: fit-content;
         
@@ -646,10 +705,38 @@ width: fit-content;
     .div-form1 {
         width: 100%;
     }
-    
+
+    .navbar-nav {
+        background-color: #082751;
+        border-radius: 10%;
+    }
+
+    #navbarScroll {
+        background-color: #082751;
+        /* height: 100vh; */
+        border-radius: 7%;
+    }
+
+    .nav-link {
+        color: white;
+    }
+    .nav-link:hover {
+        color:#ffb703;
+    }
  }
 
  @media (max-width: 430.98px) { 
+
+
+.video-carr{
+    height: 100%;
+}
+
+
+
+.img-carr {
+    max-height: 239.06px;
+}
 
 .footer-a {
     font-size: 16px;
@@ -672,5 +759,13 @@ width: fit-content;
     width: 100%;
 }
 
+
+ }
+
+ @media (max-width: 376px) { 
+
+    .img-carr {
+        max-height: 210.94px;
+    }
 
  }
