@@ -1,0 +1,36 @@
+
+
+.about-img1 {
+    width: 100%;
+ 
+
+}
+
+
+.about-m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .about-h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    .about-img-mision {
+        width: 100%;
+    }
+    .mision-p {
+        text-align: justify;
+        font-size: 25px;
+    
+        line-height: 45px;
+        padding: 15px;
+    
+    }
+
+}
+
+
+
+
+

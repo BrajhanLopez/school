@@ -1,0 +1,164 @@
+@media (max-width: 1300.98px) {
+
+    .img-carr {
+        max-height: 540px;
+    }
+
+    .section1-h1 {
+        font-size: 35px;
+    }
+
+    .section1-p {
+        font-size: 15px;
+    }
+
+    .section2-h2 {
+        font-size: 35px;
+    }
+
+    .section2-p {
+        font-size: 15px;
+    }
+
+    .section2-ul {
+        font-size: 15px;
+    }
+
+    .section3-h2 {
+        font-size: 35px;
+    }
+
+    .mision-p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .footer-img {
+        width: fit-content;
+
+    }
+
+    .class1 {
+        height: 100%;
+    }
+
+    .img-containerclass {
+        height: 100%;
+    }
+
+    .div-form1 {
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media (max-width: 991.98px) {
+
+    .img-carr {
+        max-height: 405px;
+    }
+
+    .encima {
+        display: none;
+    }
+
+    .encima-1 {
+        display: none;
+    }
+
+    .footer-img {
+        width: fit-content;
+
+    }
+
+    .section1-h1 {
+        text-align: center;
+    }
+
+    .section1-button {
+        display: block;
+        margin: auto;
+    }
+
+    .section2-h2 {
+        text-align: center;
+    }
+
+    .class1 {
+        height: 100%;
+    }
+
+    .div-form1 {
+        width: 100%;
+    }
+
+    .navbar-nav {
+        background-color: #082751;
+        border-radius: 10%;
+    }
+
+    #navbarScroll {
+        background-color: #082751;
+        /* height: 100vh; */
+        border-radius: 7%;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .nav-link:hover {
+        color: #ffb703;
+    }
+   
+}
+
+@media (max-width: 430.98px) {
+
+
+    .video-carr {
+        height: 100%;
+    }
+
+
+
+    .img-carr {
+        max-height: 239.06px;
+    }
+
+    .footer-li .footer-a{
+        font-size: 16px;
+    }
+
+    .footer-img {
+        width: 100%;
+
+    }
+
+    .class1 {
+        height: 100%;
+    }
+
+    .grades {
+        width: 95%;
+        display: block;
+        margin: auto;
+    }
+
+    .div-form1 {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 376px) {
+
+    .img-carr {
+        max-height: 210.94px;
+    }
+
+}

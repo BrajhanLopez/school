@@ -1,0 +1,52 @@
+@use './variables';
+
+.footer {
+
+    width: 100%;
+    height: fit-content;
+    background-color: variables.$bgcolorblue;
+
+}
+
+
+.footer-li {
+    list-style: none;
+
+    .footer-a {
+        text-decoration: none;
+        font-size: 22px;
+        color: white;
+    }
+
+    & :hover {
+        color: variables.$colorhovertext;
+
+    }
+}
+
+.footer-img {
+    width: fit-content;
+    margin: 0;
+}
+
+.footer-redes-a {
+    text-decoration: none;
+    color: white;
+
+    .fa-brands {
+        font-size: 35px;
+        margin-top: 10px;
+
+    }
+
+    & :hover {
+        color: variables.$colorhovertext;
+    }
+}
+
+.hr {
+    width: 80%;
+    display: block;
+    margin: auto;
+    color: white;
+}
