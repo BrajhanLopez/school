@@ -1,6 +1,8 @@
+@use '../maps';
+
 .section3-h2 {
     padding-left: 2%;
-    font-size: 50px;
+    font-size: map-get(maps.$tamanioTexto , tituloxl );
 }
 
 .btn-primary:hover{

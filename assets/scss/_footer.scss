@@ -1,4 +1,6 @@
 @use './variables';
+@use './maps';
+
 
 .footer {
 
@@ -14,8 +16,8 @@
 
     .footer-a {
         text-decoration: none;
-        font-size: 22px;
-        color: white;
+        font-size: map-get(maps.$tamanioTexto, titulofooter);
+        color: variables.$colorfondow;
     }
 
     & :hover {
@@ -31,10 +33,10 @@
 
 .footer-redes-a {
     text-decoration: none;
-    color: white;
+    color: variables.$colorfondow;
 
     .fa-brands {
-        font-size: 35px;
+        font-size: map-get(maps.$tamanioTexto, redes );
         margin-top: 10px;
 
     }
@@ -48,5 +50,5 @@
     width: 80%;
     display: block;
     margin: auto;
-    color: white;
+    color: variables.$colorfondow;
 }

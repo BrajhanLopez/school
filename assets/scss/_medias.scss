@@ -1,3 +1,5 @@
+@use './maps';
+
 @media (max-width: 1300.98px) {
 
     .img-carr {
@@ -5,33 +7,40 @@
     }
 
     .section1-h1 {
-        font-size: 35px;
+        font-size: map-get(maps.$tamanioTexto , titulomd );
     }
 
     .section1-p {
-        font-size: 15px;
+        font-size: map-get(maps.$tamanioTexto , parrafomd );
     }
 
     .section2-h2 {
-        font-size: 35px;
+        font-size: map-get(maps.$tamanioTexto , titulomd );
     }
 
     .section2-p {
-        font-size: 15px;
+        font-size: map-get(maps.$tamanioTexto , parrafomd );
     }
 
     .section2-ul {
-        font-size: 15px;
+        font-size: map-get(maps.$tamanioTexto , parrafomd );
     }
 
     .section3-h2 {
-        font-size: 35px;
+        font-size: map-get(maps.$tamanioTexto , titulomd );
     }
 
+
+.about-m {
     .mision-p {
-        font-size: 16px;
+        font-size: map-get(maps.$tamanioTexto , parrafomd );
         line-height: 25px;
     }
+
+}
+
+
+   
 
     .footer-img {
         width: fit-content;
@@ -112,6 +121,15 @@
 
     .nav-link:hover {
         color: #ffb703;
+    }
+
+
+    .about-m {
+        .mision-p {
+            font-size: 17px;
+            line-height: 25px;
+        }
+    
     }
    
 }

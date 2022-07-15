@@ -1,0 +1,20 @@
+EXPLICACIÓN DEL SEO 
+
+Paginas: Index.html, About.html, Academics.html, Contact.html, SignUp.html
+
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: 
+
+“La institución educativa Friend Garden es una institución católica que educa integralmente, basados en la excelencia en el servicio de sus colaboradores y brindar el más alto nivel académico"
+
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: 
+
+"colegio, oschool, friends garden, institución,  inicial, primaria, secundaria, Huancayo"
+
+Titulo: Deacuerdo a las buenas practicas de escribir un titulo diferente en cada html, pero que se relacione con el contenido escribí los siguientes titulos:
+
+Index.html  - School - Friends Garden
+About.html  - Friends Garden - About
+Academics.html - Friends Garden - Academics
+Contact.html  -  Friends Garden - Contacts
+SignUp.html - Friends Garden - Sign Up
+

@@ -1,17 +1,20 @@
+@use '../maps';
+@use '../clasextend';
+
 .section2-ul {
     padding-left: 4%;
     line-height: 30px;
-    font-size: 20px;
+    font-size: map-get(maps.$tamanioTexto , parrafoxl );
 }
 
 .section2-h2 {
 
-    font-size: 50px;
+    font-size: map-get(maps.$tamanioTexto , tituloxl );
 }
 
 .section2-p {
-    font-size: 20px;
-    text-align: justify;
+    font-size: map-get(maps.$tamanioTexto , parrafoxl );
+    @extend .textojustificado;
 }
 
 iframe {

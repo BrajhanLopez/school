@@ -1,5 +1,5 @@
 @use '../variables';
-
+@use '../mixin';
 .cente {
     text-align: center;
 }
@@ -11,10 +11,10 @@
 }
 
 .div-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+@include mixin.centrar;
     .form {
         width: 30rem;
         height: 35rem;

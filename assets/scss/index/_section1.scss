@@ -1,12 +1,15 @@
 @use '../variables';
+@use '../maps';
+@use '../mixin';
+@use '../clasextend';
 
 .section1-h1 {
-    font-size: 50px;
+    font-size: map-get(maps.$tamanioTexto , tituloxl );
 }
 
 .section1-p {
-    font-size: 20px;
-    text-align: justify;
+    font-size: map-get(maps.$tamanioTexto ,parrafoxl );
+    @extend .textojustificado;
     line-height: 30px;
 }
 
@@ -14,7 +17,7 @@
 .section1-button {
     background-color: variables.$bgcolorblue;
     color: white;
-    font-size: 25px;
+    font-size: map-get(maps.$tamanioTexto , textobuton );
     border: none;
     padding: 4px;
     border-radius: 5px;

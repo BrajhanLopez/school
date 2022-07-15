@@ -1,0 +1,19 @@
+@mixin centrarh {
+    display: flex;
+    justify-content: center;
+
+}
+
+@mixin centrarv {
+    display: flex;
+    align-items: center;
+
+}
+
+@mixin centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
