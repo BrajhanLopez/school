@@ -21,7 +21,7 @@
     }
     .mision-p {
 
-        // text-align: justify;
+        
         @extend .textojustificado;
         font-size: map-get(maps.$tamanioTexto ,parrafoxl );
     
