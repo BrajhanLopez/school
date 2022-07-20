@@ -41,7 +41,7 @@
   background-color: white;
   z-index: 100;
   clip-path: circle(150% at 0 0);
-  transition: clip-path 0.7s ease-in-out;
+  transition: clip-path 0.5s ease-in-out;
 }
 
 .spinner2 {
