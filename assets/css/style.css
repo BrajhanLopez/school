@@ -42,6 +42,7 @@
   text-decoration: none;
   font-size: 22px;
   color: white;
+  font-weight: 200;
 }
 .footer-li :hover {
   color: #ffb703;
@@ -104,6 +105,10 @@
 .section1-button:hover {
   background-color: #023047;
   cursor: pointer;
+}
+
+.link-buton {
+  text-decoration: none;
 }
 
 .img-carr {
@@ -226,14 +231,12 @@ iframe {
 .div-form .form .h22 {
   margin: 10px 0;
   padding-bottom: 10px;
-  /* width: 180px; */
   color: #082751;
   border-bottom: 3px solid #082751;
 }
 .div-form .form .button {
   float: right;
   padding: 8px 12px;
-  /* margin: 8px 0 0; */
   font-family: "Montserrat", sans-serif;
   border: 2px solid #78788c;
   background: 0;
@@ -337,10 +340,16 @@ iframe {
   .div-form1 {
     width: 100%;
   }
+  .footer-a {
+    font-size: 16px !important;
+  }
 }
 @media (max-width: 991.98px) {
   .img-carr {
     max-height: 405px;
+  }
+  .term {
+    font-size: 12px !important;
   }
   .encima {
     display: none;
@@ -391,6 +400,12 @@ iframe {
   .video-carr {
     height: 100%;
   }
+  .fa-brands {
+    font-size: 25px !important;
+  }
+  .term {
+    font-size: 10px !important;
+  }
   .img-carr {
     max-height: 239.06px;
   }
@@ -399,6 +414,7 @@ iframe {
   }
   .footer-img {
     width: 100%;
+    height: fit-content;
   }
   .class1 {
     height: 100%;

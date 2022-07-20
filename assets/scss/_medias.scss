@@ -59,6 +59,9 @@
         width: 100%;
     }
 
+    .footer-a {
+        font-size: 16px !important;
+    }
 
 
 }
@@ -68,6 +71,10 @@
 
     .img-carr {
         max-height: 405px;
+    }
+
+    .term {
+        font-size: 12px !important;
     }
 
     .encima {
@@ -141,7 +148,14 @@
         height: 100%;
     }
 
+    .fa-brands{
 
+        font-size: 25px !important;
+    }
+
+.term {
+    font-size: 10px !important;
+}
 
     .img-carr {
         max-height: 239.06px;
@@ -153,6 +167,7 @@
 
     .footer-img {
         width: 100%;
+        height: fit-content;
 
     }
 
